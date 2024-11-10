@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#home-body {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../imgs/img.jpg);
+}
+a {
+  text-decoration: none;
+}
+.navbar-brand i {
+  color: #009ad8;
+  font-size: 25px;
+}
+.navbar-collapse .btn {
+  color: #fff;
+}
+.navbar-collapse .btn:hover {
+  color: #009ad8;
+  border: 1px solid #009ad8;
+  border-radius: 5px;
+}
+.navbar-collapse .btn.active {
+  color: #009ad8;
+  border: 1px solid #009ad8;
+  border-radius: 5px;
+}
+.find-btn,
+.subscribe-btn {
+  color: #fff;
+  background-color: #009ad8;
+  padding: 5px 14px;
+  margin-left: 1rem;
+}
+.find-btn:hover,
+.subscribe-btn:hover {
+  color: #fff;
+  background-color: #009ad8;
+}
+.forCast-tables {
+  background-color: #323544;
+  color: #bfc1c8;
+  border-radius: 10px;
+}
+
+.second {
+  background-color: #262936;
+}
+.table-header {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.location {
+  font-size: 18px;
+}
+.current-deg h2 {
+  color: #fff;
+  font-size: 90px;
+  font-weight: 500;
+}
+.current-status {
+  width: 90px;
+}
+.status {
+  color: #009ad8;
+  margin: 20px 0;
+}
+.forecast-icon {
+  width: 21px;
+  height: 21px;
+}
+footer {
+  background-color: #323544;
+}
+footer p {
+  color: #fff;
+}
+footer i {
+  color: #009ad8;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 20px;
+  background-color: #222530;
+  border-radius: 50%;
+}
+footer i:hover {
+  background-color: #009ad8;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#contact-body {
+  background-color: #1e202b;
+}
+.badge {
+  background-color: #262936;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.badge a {
+  color: #bfc1c8;
+}
+.current {
+  color: #fff;
+}
+section p {
+  color: #bfc1c8;
+}
+#message {
+  height: 150px;
+}
+.submit {
+  background-color: #009ad8;
+  color: #fff;
+}
+section i {
+  color: #009ad8;
+}
+.contact-info {
+  background-color: #262936;
+  height: 300px;
+  flex-direction: column;
+}
